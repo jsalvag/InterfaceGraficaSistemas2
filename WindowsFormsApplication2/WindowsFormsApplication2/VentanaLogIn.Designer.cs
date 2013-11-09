@@ -129,8 +129,9 @@
             this.button2.TabIndex = 8;
             this.button2.Text = "Cerrar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // VentanaLogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -148,7 +149,7 @@
             this.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(9, 8, 9, 8);
-            this.Name = "Form1";
+            this.Name = "VentanaLogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fundación \"Esperanza de Luaz\"";
             this.ResumeLayout(false);
